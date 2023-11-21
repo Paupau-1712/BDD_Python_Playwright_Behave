@@ -19,3 +19,5 @@ async def before_scenario(context, scenario):
 @async_run_until_complete
 async def after_scenario(context, scenario):
     await context.p.stop(scenario)
+
+
