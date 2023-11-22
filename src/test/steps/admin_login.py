@@ -3,6 +3,7 @@ from behave.api.async_step import async_run_until_complete
 from src.main.apps_classes.saucedemov2.login_page import LoginPage
 
 
+
 @given(u'user is on the login page')
 @async_run_until_complete
 async def step_user_on_login_page(context):
